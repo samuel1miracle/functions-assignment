@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+
+
+
+
+
+
+      //ANSWER TO QUESTION 1
+
+    function helloName(name){
+        return 'Hello '+name+'!'
+      }
+      console.log(helloName('Bob'))
+      console.log(helloName('Alice'))
+      console.log(helloName('X'))
+
+
+
+
+
+      //ANSWER TO QUESTION 2
+
+       function makeAbba(a,b) {
+         return a+b+b+a;
+       }
+       console.log(makeAbba('Hi','Bye'))
+       console.log(makeAbba('Yo','Alice'))
+       console.log(makeAbba('What','Up'))
+
+
+
+
+
+
+             //ANSWER TO QUESTION 3
+
+      function makeTags(tag,word) {
+        return '<i>' +tag+ +word+ '</i>';
+      }
+      console.log(makeTags('Yay'))
+      console.log(makeTags('Hello'))
+      console.log(makeTags('Yay'))
+
+
+
+
+            //ANSWER TO QUESTION 4
+
+            function makeOutWord(out,word) {
+         return '<<' +out+  +word+ '>>';
+       }
+
+       console.log(makeOutWord('<<>>','Yay'))
+       console.log(makeOutWord('<<>>','WooHoo'))
+       console.log(makeOutWord('[[]]','word'))
+
+
+
+
+
+             //ANSWER TO QUESTION 5
+
+             function extraEnd(rstr) {
+         rstr = rstr.substring(rstr- 2);
+         return rstr +rstr+ rstr
+       }
+
+       console.log(extraEnd('Hello'))
+       console.log(extraEnd('ab'))
+       console.log(extraEnd('Hi'))
+
+
+
+
+
+
+          //ANSWER TO QUESTION 6
+
+       function endsLy(str) {
+          if(str = 'ly')
+          return true;
+          
+          else return false;
+        }
+       console.log(endsLy('oddly'))
+       console.log(endsLy('y'))
+       console.log(endsLy('oddl')) 
+       
+       /* This number 6 is outputting true for all strings
+       and i cant seem to find whats wrong with the Code 
+       because one of it is supposed to output true 
+       and the rest = false */
+
+
+
+
+
+
+
+
+
+
+
+
+      //ANSWER TO QUESTION 7
+
+      //  function firstTwo(str) {
+ 
+      //   } if(str.lenght() < 2); {
+      //     return str.lenght();
+      //   }
+      //   elseif (str === ' '); { 
+      //   return ' '
+      //   };
+      //   console.log(firstTwo('Hello'))
+      //   console.log(firstTwo('abcdefg'))
+      //   console.log(firstTwo('ab'))
+
+      function firstTwo(str) {
+      if (str < 2) return str;
+      return str.substring(0, 2);
+      }
+         console.log(firstTwo('Hello'))
+         console.log(firstTwo('abcdefg'))
+         console.log(firstTwo('ab'))
+
+
+
+
+
+
+
+
+      
+
+     //ANSWER TO QUESTION 8
+
+      
+     function comboString(a,b) {
+           if(a > b) {
+             return a + b + a;
+           }
+           return a + b + a;
+         }
+         console.log(comboString('Hello','hi'))
+         console.log(comboString('Hi','Hello'))
+         console.log(comboString('aaa','b'))
+
+
+         </script>
+
+</body>
+</html>
